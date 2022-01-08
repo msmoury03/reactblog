@@ -1,0 +1,14 @@
+.mymaindivv{
+    display: flex;
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+    .mymaindivv{
+        display: block;
+    }
+}

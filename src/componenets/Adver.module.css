@@ -1,0 +1,35 @@
+.divv {
+  width: 270px;
+  height: 450px;
+  background-color: white;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.text {
+  padding-top: 70%;
+  text-align: center;
+}
+
+
+@media screen and (max-width:400px) {
+  .divv {
+    width: inherit;
+    height: 70px;
+    background-color: white;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .text {
+    padding-top: 9%;
+    text-align: center;
+    align-items: center;
+    font-size: 8px;
+  }
+
+
+
+}

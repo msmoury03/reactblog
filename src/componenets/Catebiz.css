@@ -1,0 +1,21 @@
+.merii{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+    .merii{
+        display: block;
+    }
+}

@@ -1,0 +1,194 @@
+.mmm{
+    color: aqua;
+}
+
+.maindiv{
+    background-color: black;
+    height: 390px;
+    width: 690px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.apnadiv{
+    background-color: black;
+    height: 390px;
+    width: 690px;
+    border-radius: 5px;
+    position: relative;  
+}
+
+.apnadiv img{
+    width: 688px;
+    height: 388px;
+    border-radius: 5px;
+}
+
+
+
+
+.maindiv img{
+    width: 688px;
+    height: 388px;
+    border-radius: 5px;
+    
+
+}
+
+.text{
+    color: white;
+    position: absolute;
+    bottom: 90px;
+    left: 100px;
+}
+
+.textti{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+}
+
+
+.smdiv{
+   
+    height: 190px;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 20px;
+    position: relative;
+    
+
+}
+
+.smdiv img{
+    height: 188px;
+    width: 348px;
+    border-radius: 5px;
+   
+
+}
+
+.smdiv1{
+    
+    height: 190px;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 3px; 
+    position: relative;
+}
+
+.smtext{
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.smtextti{
+    color: white;
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+}
+
+.smdiv1 img{
+    height: 188px;
+    width: 348px;
+    border-radius: 5px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+    .maindiv{
+        background-color: black;
+        height: 100px;
+        width: 210px;
+        border-radius: 5px;
+        position: relative;
+    }
+    
+    .maindiv img{
+        width: inherit;
+        height: inherit;
+        border-radius: 5px;
+        
+    
+    }
+
+    .text{
+        color: white;
+        position: absolute;
+        bottom: 30px;
+        left: 10px;
+    }
+    
+    .textti{
+        color: white;
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+    }
+
+    .smdiv{
+   
+        height: 50px;
+        width: 100px;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin: 0px 10px 2px 10px;
+        position: relative;
+    
+    }
+
+    .smdiv img{
+        height: inherit;
+        width: inherit;
+        border-radius: 5px;
+    
+    }
+    .smtext{
+        color: white;
+        position: absolute;
+        bottom: 16px;
+        left: 10px;
+        font-size: 4px;
+    }
+
+    .smtextti{
+        color: white;
+        position: absolute;
+        bottom: 0px;
+        left: 10px;
+        font-size: 3px;
+    }
+
+    .bbb{
+        height: 50px;
+        width: 50px;
+    }
+
+    .apnadiv{
+        display: none;
+    }
+
+    
+
+
+}

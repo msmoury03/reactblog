@@ -1,0 +1,44 @@
+.mymainro{
+    width: 71rem;
+    height: 30rem;
+}
+.mymainro img{
+    width: inherit;
+    height: 28vh;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+    .h5,h5{
+        font-size: 0.25rem;
+    }
+
+    .row>*{
+        width: 33%;
+        padding: 0;
+    }
+    .card-body {
+        padding: 1rem 0rem;
+    }
+    p{
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .mymainro{
+        width: 21rem;
+        height: 10rem;
+    }
+
+    .mymainro img{
+        width: inherit;
+        height: 50px;
+    }
+
+
+}

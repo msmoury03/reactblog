@@ -1,0 +1,194 @@
+.maindiv{
+   
+    display: inline-flex;
+    justify-content: center;
+    
+}
+
+
+.smdiv1{
+    background-color: #fff;
+    margin: 10px;
+    width: 55%;
+    padding: 12px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.profile{
+    margin-top: 32px;
+    display: flex;
+}
+
+.profile img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+i{
+    cursor: pointer;
+    margin: 3px;
+}
+
+.socialme{
+    position: absolute;
+    right: 10px;
+}
+
+.postnews{
+    margin-left: 15px;
+}
+
+.potimg{
+    width: 34vw;
+    height: 40vh;
+    margin-bottom: 5vh;
+    border: none;
+}
+
+h6{
+    margin-bottom: 5vh;
+}
+
+.fa-hands-clapping{
+    font-size: 35px;
+}
+
+
+.holadiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.reletedcard{
+    background-color: white;
+    border-radius: 10px;
+    width: 370px;
+    margin: 10px;
+    
+
+}
+
+.img1{
+    width: 350px;
+    height: 200px;
+    /* padding: 5px; */
+    border-radius: 6px;
+}
+
+.maincard{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.imgg{
+    width: 30px;
+    height: 30px;
+}
+.autooo{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+    .smdiv1{
+        margin: 10px;
+        width: 95%;
+        padding: 12px;
+        position: relative;
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    .profile img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .postnews{
+        margin-left: 15px;
+        font-size: 10px;
+    }
+
+    .post img{
+        width: 82vw;
+        height: 28vh;
+
+    }
+
+    .maincard{
+      display: flex;
+    }
+    .img1{
+        width: 100px;
+        height: 70px;
+    }
+    
+    .martil{
+        display: inline-block;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .imgg , .artii{
+        display: none;
+    }
+
+    .prof1{
+        display: inline-flex;
+    }
+
+    .artau{
+        display: none;
+    }
+
+    .autooo{
+        display: contents;
+    }
+
+    h6{
+        margin-bottom: 0.29vh;
+    }
+
+
+
+
+
+
+
+
+
+}
