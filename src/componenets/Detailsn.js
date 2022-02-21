@@ -1,7 +1,9 @@
-import React, { useContext } from "react";
+import axios from "axios";
+import React, { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import "./Detailsn.css";
-import { Newscontext } from "./NewsContext";
+
+
 
 
 const Detailsn = () => {
@@ -9,7 +11,16 @@ const Detailsn = () => {
 
   const navigte = useNavigate()
 
-  const [news, setnews] = useContext(Newscontext);
+  const [news, setnews] = useState([])
+
+  useEffect(async () => {
+    const response = await axios.get(`https://reactbackendd.herokuapp.com/v1/blogs/${id}`);
+    const data = response.data;
+    await setnews(data)
+  }, []);
+
+
+
 
   return (
     <div>

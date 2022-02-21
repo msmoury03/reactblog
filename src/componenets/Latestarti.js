@@ -1,7 +1,9 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Newscontext } from "./NewsContext";
 import style from "./Latestarti.module.css";
 import { useNavigate, useParams } from "react-router-dom";
+import axios from "axios";
+
 
 
 
@@ -17,6 +19,12 @@ const Latestarti = () => {
   };
 
   const { ctname } = useParams();
+
+  useEffect(async () => {
+    const response = await axios.get(`https://reactbackendd.herokuapp.com/v1/blogs/?category=${ctname}`);
+    const data = response.data;
+    await setnews(data)
+  }, [ctname]);
 
   
 

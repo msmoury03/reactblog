@@ -7,6 +7,8 @@ import { Newscontext } from "./NewsContext";
 const Bigbanner = () => {
   const [news, setnews] = useContext(Newscontext);
 
+  const [loading, setloading ] = useState(false)
+
 
   const navigte = useNavigate()
   
