@@ -21,9 +21,11 @@ const Latestarti = () => {
   const { ctname } = useParams();
 
   useEffect(async () => {
-    const response = await axios.get(`https://reactbackendd.herokuapp.com/v1/blogs/?category=${ctname}`);
+    if(ctname!==undefined){
+      const response = await axios.get(`https://reactbackendd.herokuapp.com/v1/blogs/?category=${ctname}`);
     const data = response.data;
     await setnews(data)
+    }
   }, [ctname]);
 
   
